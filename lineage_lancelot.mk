@@ -23,7 +23,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
+#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lancelot
