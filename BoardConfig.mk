@@ -129,9 +129,6 @@ TW_EXCLUDE_TWRPAPP := true
 #TW_RECOVERY_ADDITIONAL_RELINK_FILES += out/target/product/lancelot/system/lib64/libhidlmemeory.so
 #TARGET_RECOVERY_DEVICE_MODULES += libhidlmemeory
 
-# Hack: prevent anti rollback
-PLATFORM_SECURITY_PATCH := 2099-12-31
-
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
