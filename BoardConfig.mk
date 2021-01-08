@@ -112,6 +112,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/prebuilt/recovery.fstab
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 
+# DPI
+TARGET_SCREEN_DENSITY := 440
+
 # TWRP specific build flags
 #TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
